@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+#mainContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardContainer {
+    height: 80%;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#dancingBoy {
+    width: 100%;
+    flex: 1;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#title {
+    font-weight: 900;
+    flex: 1;
+    margin-top: 1.8em;
+    margin-bottom: 0;
+}
+
+#info {
+    flex: 1;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    color: hsl(224, 23%, 55%);
+    width: 74%
+}
+
+#plan {
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 18px;
+    width: 80%;
+    height: 14%;
+    margin-top: 0.8em;
+}
+
+#micon {
+    width: 48px;
+    height: 48px;
+    margin-left: 1em;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 900;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+span {
+    display: block;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-top: 0.3em;
+}
+
+#changeLink {
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-left: 2em;
+}
+
+#proceedBtn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    box-shadow: 0 10px 5px hsl(225, 100%, 94%);
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 2em;
+    padding: 1rem 6rem;
+}
+
+#cancelLink {
+    flex: 1;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 900;
+    margin: 1em 0;
+}
+
+#changeLink:hover,
+#cancelLink:hover,
+#proceedBtn:hover {
+    cursor: pointer;
+}
+
+#cancelLink:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+#changeLink:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#proceedBtn:hover {
+    opacity: 0.8;
+}
+
+.attribution {
+    border: 2px solid;
+    text-align: center;
+    border-top-color: red;
+    border-bottom-color: green;
+    border-left-color: yellow;
+    border-right-color: blue;
+    width: 40%;
+    padding: 2em 0;
+    font-weight: 200;
+}
+
+.attribution a {
+    color: red;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media (max-width:460px) {
+    #cardContainer {
+        width: 80%;
+    }
+
+    #proceedBtn {
+        padding: 1em 3em;
+    }
+
+    #title {
+        flex: 0;
+    }
+
+    #info {
+        margin-top: 1em;
+    }
+
+
+    #micon {
+        width: 2em;
+        height: 2em;
+    }
+
+    #plan {
+        font-size: 0.8em;
+    }
+
+    #changeLink {
+        margin-left: 2em;
+    }
+
+}
+
+@media (max-width:364px) {
+    #changeLink {
+        margin-left: 0.2em;
+    }
+}
