@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/erntTt94/Order-Summery-Component](https://github.com/erntTt94/Order-Summery-Component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://ernttt94.github.io/Order-Summery-Component/](https://ernttt94.github.io/Order-Summery-Component/)
 
 ## My process
 
